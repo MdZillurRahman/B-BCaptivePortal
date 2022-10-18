@@ -3,6 +3,7 @@
   src: url("fonts/Oblik-Bold.otf");
 }
 
+
 body {
   background: url("./assests//backgroundImage1.jpg") no-repeat center center
     fixed;
@@ -62,12 +63,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-
-    body{
-        height: 100%;
+  body {
+    height: 100%;
     overflow: hidden;
-    }
-    
+  }
+
   .wifi {
     font-size: 20px;
   }
