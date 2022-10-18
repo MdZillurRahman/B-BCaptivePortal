@@ -22,10 +22,6 @@ body{
     src: url("fonts/Oblik-Bold.otf");
 }
 
-.logo{
-    /* width: 1000px; */
-}
-
 .wifi{
     color: #18456C;
     font-size: 30px;
@@ -63,3 +59,19 @@ body{
 .btn-1:hover{
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-position: 10% 55%;
+
+    }
+
+    .wifi{
+        font-size: 20px;
+    }
+    
+    .btn-1{
+        padding: 14px 80px;
+    }
+
+  }
